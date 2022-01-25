@@ -1,1 +1,47 @@
-<p>inicio works!</p>
+<div class="container-fluid">
+
+  <div class="row bg-secondary d-flex align-items-center">
+    <div class="col-md-6">
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6 text-white">
+          <h1 class="fs-54">Seja bem vindo(a)!</h1>
+          <h5 class="fs-18">Expresse aqui seus pensamentos .</h5>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center mt-3 mb-5">
+        <div class="col-md-6">
+          <button class="btn btn-light mr-2">Nova Postagem</button>
+          <a class="btn btn-outline-light" href="#postagens">Ver Postagens</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="cold-med-6 d-flex justify-content-center">
+      <img src="https://image.freepik.com/vetores-gratis/pessoas-conversando_53876-25458.jpg" alt="pessoas conversando" width="800px" height="500px">
+    </div>
+
+  </div>
+</div>
+
+<div class="container mb-5 mt-5 " id="postagens">
+
+  <nav>
+    <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+
+      <a class="nav-link active text-secondary font-weight-bold" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Todas Postagens</a>
+
+      <a class="nav-link text-secondary font-weight-bold" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Minhas Postagens</a>
+
+      <a class="nav-link text-secondary font-weight-bold" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Postagens Por Tema</a>
+    </div>
+
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">Todas Postagens</div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">Minhas Postagens</div>
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">Postagens Por Tema</div>
+  </div>
+</div>

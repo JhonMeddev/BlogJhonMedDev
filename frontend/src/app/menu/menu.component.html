@@ -6,10 +6,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mr-auto d-flex align-items-center">
         <li class="nav-item active">
-          <img src="https://preview.redd.it/fcorz03z75f41.jpg?auto=webp&s=b1b5bb4a5c71b4384a9122772b6874dc2b66e37e" alt="" width="50" height="50" class="img-fluid rounded-circle">
+          <img src="{{foto}}" alt="" width="50" height="50" class="img-fluid rounded-circle">
         </li>
         <li class="nav-item p-3">
-          <p class="m-0 font-weight-bold text-light fs-16">Nome do Usuario</p>
+          <p class="m-0 font-weight-bold text-light fs-16"> {{nome}}</p>
         </li>
         <li class="nav-item p-3">
           <a href=""><p class="text-light fs-16 m-0"><i class="far fa-edit"></i></p></a>
@@ -18,7 +18,7 @@
 
       <ul class="navbar-nav ml-auto d-flex align-items-center">
         <li class="nav-item p-3">
-          <a class="m-0 font-weight-bold text-light fs-16">SAIR <i class="fas fa-sign-out-alt"></i></a>
+          <a class="m-0 font-weight-bold text-light fs-16" (click)='sair()' >SAIR <i class="fas fa-sign-out-alt"></i></a>
         </li>
       </ul>
     </div>
