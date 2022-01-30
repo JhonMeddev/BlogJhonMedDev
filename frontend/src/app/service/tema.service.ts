@@ -1,8 +1,9 @@
-import { Observable } from 'rxjs';
-import { Tema } from './../model/Tema';
-import { environment } from './../../environments/environment.prod';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
+
+import { environment } from './../../environments/environment.prod';
+import { Tema } from './../model/Tema';
 
 @Injectable({
   providedIn: 'root'
